@@ -1,3 +1,15 @@
+/*
+输出 
+action 001
+action 002
+action 003
+action 005
+action 006
+end
+context =  { data: [ 1, 2, 3, 5, 6 ] }
+action 004
+
+*/
 let context = {
   data: []
 };
@@ -40,3 +52,5 @@ Promise.resolve(middleware1(context, async() => {
     console.log('end');
     console.log('context = ', context);
   });
+
+
