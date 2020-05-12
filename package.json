@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-api-usedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyh1091106900/nodejs-api-usedemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyh1091106900/nodejs-api-usedemo/issues"
+  },
+  "homepage": "https://github.com/lyh1091106900/nodejs-api-usedemo#readme",
+  "dependencies": {
+    "mkdirp": "^1.0.4",
+    "request": "^2.88.2",
+    "split": "^1.0.1"
+  }
+}
